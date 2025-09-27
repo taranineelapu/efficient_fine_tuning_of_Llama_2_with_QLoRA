@@ -12,7 +12,7 @@ This project demonstrates how large language models (LLMs) can be fine-tuned eff
 * Track training metrics using TensorBoard
 * Save and reuse fine-tuned models for downstream NLP tasks
 
-# 🚀 Features
+# 📂 Features
 Model Setup:
 * Llama-2-7b-chat-hf loaded from Hugging Face
 * Fine-tuned using LoRA with QLoRA (4-bit quantization) for memory savings
