@@ -2,10 +2,10 @@
 This project demonstrates how large language models (LLMs) can be fine-tuned effectively under limited computational resources. This case study focuses on the Llama-2-7b-chat-hf model, applying parameter-efficient techniques such as QLoRA and 4-bit quantization to achieve meaningful results on a single GPU. Real-time training progress is monitored using TensorBoard, demonstrating effective fine-tuning of large language models under resource constraints.
 
 # 🛠 Tech Stack
-* Modeling: Hugging Face Transformers, Llama-2-7b-chat-hf
-* Fine-Tuning Techniques: LoRA, QLoRA (4-bit precision), BitsAndBytes
-* Monitoring: TensorBoard
-* Environment: Python, single GPU
+* **Modeling:** Hugging Face Transformers, Llama-2-7b-chat-hf
+* **Fine-Tuning Techniques:** LoRA, QLoRA (4-bit precision), BitsAndBytes
+* **Monitoring:** TensorBoard
+* **Environment:** Python, single GPU
 
 # 🎯 Usage
 * Run fine-tuning on consumer-grade GPUs with limited VRAM
@@ -13,20 +13,20 @@ This project demonstrates how large language models (LLMs) can be fine-tuned eff
 * Save and reuse fine-tuned models for downstream NLP tasks
 
 # 📂 Features
-Model Setup:
+**Model Setup:**
 * Llama-2-7b-chat-hf loaded from Hugging Face
 * Fine-tuned using LoRA with QLoRA (4-bit quantization) for memory savings
 * Configured with efficient hyperparameters (LoRA rank, alpha, dropout)
 
-Data Preparation:
+**Data Preparation:**
 * Used guanaco-llama2-1k dataset, pre-aligned with Llama 2 prompt format
 * Smaller dataset volume to accommodate limited compute
 
-Training & Monitoring:
+**Training & Monitoring:**
 * Single-epoch fine-tuning with gradient checkpointing for memory optimization
 * Real-time performance tracking via TensorBoard
 
-Efficiency Gains:
+**Efficiency Gains:**
 * Training completed in ~24 minutes with limited hardware
 * Achieved reasonable convergence while minimizing GPU usage
 
