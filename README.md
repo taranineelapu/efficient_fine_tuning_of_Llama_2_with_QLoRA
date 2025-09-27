@@ -30,4 +30,4 @@ This project demonstrates how large language models (LLMs) can be fine-tuned eff
 * Training completed in ~24 minutes with limited hardware
 * Achieved reasonable convergence while minimizing GPU usage
 
-**Note**:	However, please note that this code was written and specifically designed for systems with an NVIDIA GPU and driver. Hence, if your system does not have an NVIDIA GPU, this will throw a runtime error.
+**Note**:	Please note that this code was written and specifically designed for systems with an NVIDIA GPU and driver. Hence, if your system does not have an NVIDIA GPU, this will throw a runtime error.
